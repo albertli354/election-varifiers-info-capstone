@@ -1,7 +1,5 @@
 # election-varifiers-info-capstone
-
-
-ElectionGuard Verifier
+Welcome to the eletion verifiers repo!
 
 ## What’s included in the repo
 This repo is an independent verifier of Microsoft [Election Guard SDK] (https://github.com/microsoft/electionguard) by the Informatics program capstone team. 
