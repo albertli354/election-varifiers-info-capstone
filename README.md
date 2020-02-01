@@ -2,7 +2,7 @@
 Welcome to the eletion verifiers repo!
 
 ## What’s included in the repo
-This repo is an independent verifier of Microsoft [Election Guard SDK](https://github.com/microsoft/electionguard) by the Informatics program capstone team. 
+This repo is an independent verifier of [Microsoft Election Guard SDK](https://github.com/microsoft/electionguard) by the Informatics program capstone team. 
 It also includes a website to inform voters about the ElectionGuard system as well as to teach potential developers how to understand the documentation and create their own verifiers.
 
 
