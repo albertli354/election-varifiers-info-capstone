@@ -17,3 +17,7 @@ Xiang Li - xl52@uw.edu
 
 Ajay Qi - ajayq@uw.edu 
 
+## Contact Information
+
+demo landing page: https://verifyvote.carrd.co/
+
