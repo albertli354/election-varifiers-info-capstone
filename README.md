@@ -17,6 +17,8 @@ Xiang Li - xl52@uw.edu
 
 Ajay Qi - ajayq@uw.edu 
 
+Nicola Kalderash - kderash0@uw.edu
+
 ## Contact Information
 
 demo landing page: https://verifyvote.carrd.co/
