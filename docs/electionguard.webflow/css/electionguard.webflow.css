@@ -1,0 +1,566 @@
+.w-layout-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+}
+
+.container {
+  max-width: 1200px;
+  margin-top: 144px;
+  margin-bottom: 144px;
+}
+
+.container.herocont {
+  margin-top: 24vh;
+  margin-bottom: 0px;
+}
+
+.section {
+  padding: 24px;
+}
+
+.section.herosection {
+  height: 100vh;
+  background-color: transparent;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(18, 29, 47, 0.4)), to(rgba(18, 29, 47, 0.4))), url('../images/arnaud-jaegers-IBWJsMObnnU-unsplash.jpg');
+  background-image: linear-gradient(180deg, rgba(18, 29, 47, 0.4), rgba(18, 29, 47, 0.4)), url('../images/arnaud-jaegers-IBWJsMObnnU-unsplash.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, auto 2560px;
+  background-repeat: repeat, no-repeat;
+  background-attachment: scroll, scroll;
+}
+
+.title.right {
+  padding-right: 32px;
+  text-align: right;
+}
+
+.title.left {
+  padding-left: 24px;
+}
+
+.heading {
+  position: static;
+  margin-bottom: 24px;
+  font-family: 'Segoe ui', sans-serif;
+  color: #f8f8f8;
+  font-size: 104px;
+  line-height: 104px;
+  font-weight: 400;
+}
+
+.bold-text {
+  color: #8edfff;
+}
+
+.bold-text-2 {
+  color: #8edfff;
+}
+
+.italic-text {
+  color: #8edfff;
+}
+
+.italic-text-2 {
+  color: #8edfff;
+  white-space: normal;
+}
+
+.paragraph {
+  margin-top: 56px;
+  font-family: 'Segoe ui', sans-serif;
+  color: #f8f8f8;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+}
+
+.image {
+  text-align: center;
+}
+
+.div-block {
+  margin-top: 16vh;
+  text-align: center;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.body {
+  height: auto;
+  background-color: #f8f8f8;
+}
+
+.section-2 {
+  padding: 24px;
+}
+
+.coderhead {
+  margin: 0px 0px 144px;
+  font-family: Seguisb, sans-serif;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+}
+
+.text-span {
+  font-family: Seguisb, sans-serif;
+  color: #9ae2ff;
+}
+
+.text-span-2 {
+  font-family: Seguisb, sans-serif;
+  color: #9ae2ff;
+}
+
+.grid {
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.grid.icongrid {
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+}
+
+.numbertitle {
+  margin-top: 0px;
+  margin-bottom: 32px;
+  font-family: 'Segoe ui', sans-serif;
+  color: #0078d4;
+  font-size: 72px;
+  line-height: 72px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.paragraph-2 {
+  font-family: 'Segoe ui', sans-serif;
+  font-size: 32px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.heading-2 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-family: Seguisb, sans-serif;
+  color: #0078d4;
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.shieldicon {
+  position: static;
+  width: auto;
+  height: 190px;
+  margin-right: 200px;
+  margin-bottom: 32px;
+  margin-left: 200px;
+  padding: 0px;
+  text-align: left;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.div-block-2 {
+  margin-bottom: 100px;
+}
+
+.heading-3 {
+  margin-top: 0px;
+  margin-bottom: 72px;
+  font-family: Seguisb, sans-serif;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+}
+
+.button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 400px;
+  height: 80px;
+  margin-top: 112px;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #0078d4;
+  font-family: Seguisb, sans-serif;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: left;
+}
+
+.div-block-3 {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.navcont {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80px;
+  max-width: 1200px;
+}
+
+.image-2 {
+  width: 162px;
+  height: 38px;
+  margin-right: 40px;
+  margin-bottom: 8px;
+}
+
+.brand {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.navitem {
+  padding-right: 24px;
+  padding-left: 0px;
+  font-family: 'Segoe ui', sans-serif;
+  color: #f8f8f8;
+  font-size: 18px;
+}
+
+.navitem.hover {
+  padding-top: 7px;
+  padding-right: 0px;
+  padding-bottom: 7px;
+}
+
+.nav-menu {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.navbar {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  background-color: #1a1a1f;
+}
+
+.text-block {
+  padding-right: 2px;
+  color: #f8f8f8;
+  font-size: 20px;
+}
+
+.icon {
+  color: #f8f8f8;
+}
+
+.dropdown-toggle {
+  padding-top: 23px;
+  padding-bottom: 23px;
+}
+
+.dropdown-toggle:hover {
+  color: #9ae2ff;
+}
+
+.dropdown-toggle.w--open {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.dropdown-link {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: #f8f8f8;
+}
+
+.dropdown-link:hover {
+  color: #9ae2ff;
+}
+
+.dropdown-list {
+  background-color: #1a1a1f;
+}
+
+.main-section-head {
+  height: auto;
+  text-align: center;
+}
+
+.pageheader {
+  margin-top: 172px;
+  margin-bottom: 24px;
+  font-family: 'Segoe ui', sans-serif;
+  font-size: 54px;
+  line-height: 54px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.mainsubheader {
+  margin-bottom: 124px;
+  font-size: 28px;
+  line-height: 32px;
+  text-align: center;
+}
+
+.container-2 {
+  max-width: 1096px;
+}
+
+.iconrightsection {
+  margin-bottom: 180px;
+}
+
+.container-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1200px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.heading-4 {
+  margin-bottom: 20px;
+  font-family: Seguisb, sans-serif;
+  font-size: 50px;
+  line-height: 54px;
+}
+
+.paragraph-3 {
+  max-width: 632px;
+  font-family: 'Segoe ui', sans-serif;
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.imageright {
+  margin-right: 0px;
+  margin-left: 115px;
+}
+
+.imageleft {
+  margin-right: 115px;
+}
+
+.text-span-3 {
+  font-family: Seguisb, sans-serif;
+}
+
+.container-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1200px;
+  margin-bottom: 80px;
+  padding-right: 20px;
+  padding-left: 20px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.heading-5 {
+  max-width: 900px;
+  margin-right: 240px;
+  font-family: 'Segoe ui', sans-serif;
+  font-size: 48px;
+  line-height: 52px;
+  font-weight: 400;
+}
+
+.heading-5.noelection {
+  margin-right: 216px;
+}
+
+.button-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 300px;
+  height: 72px;
+  max-height: 72px;
+  max-width: 300px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #0078d4;
+  font-family: 'Segoe ui', sans-serif;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+}
+
+.container-5 {
+  max-height: 58px;
+  max-width: 1200px;
+}
+
+.text-field {
+  height: 58px;
+  max-height: 58px;
+  max-width: 585px;
+  margin-right: 64px;
+  padding-right: 24px;
+  padding-left: 24px;
+  border: 0px none #000;
+  border-radius: 4px;
+  background-color: #e3e3e3;
+  font-family: 'Segoe ui', sans-serif;
+  color: #666;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.body-2 {
+  border-radius: 8px;
+}
+
+.form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.select-field {
+  height: 58px;
+  max-height: 58px;
+  max-width: 124px;
+  margin-right: 36px;
+  border: 0px none #000;
+  font-family: Seguisb, sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.select-field.sectorselect {
+  max-width: 104px;
+}
+
+.table {
+  margin-top: 58px;
+}
+
+.container-6 {
+  max-width: 1200px;
+}
+
+.listhead {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.name {
+  max-width: 96px;
+  font-family: 'Segoe ui', sans-serif;
+  color: #666;
+  font-size: 32px;
+  line-height: 36px;
+}
+
+.name.rating {
+  max-width: 360px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.name.electionname {
+  color: #333;
+}
+
+.name.firstitem {
+  width: 664px;
+  max-width: 1200px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: 'Segoe ui';
+  src: url('../fonts/Segoe-UI.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Segoe ui';
+  src: url('../fonts/Segoe-UI-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Seguisb';
+  src: url('../fonts/seguisb.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
