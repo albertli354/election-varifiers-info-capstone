@@ -5,7 +5,6 @@ Welcome to the election verifiers repo! Please visit our landing
 ## Table of Contents:
 - [Who We Are](#who-we-are)
 - [What's Included In the Repo](#whats-included-in-the-repo)
-- [Who We Are](#who-we-are)
 - [How to Build and Deploy](#how-to-build-and-deploy)
 - [About the Verifier](#about-the-verifier)
 - [Acknowledgement](#acknowledgment)
