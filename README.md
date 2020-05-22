@@ -1,3 +1,4 @@
+![banner](/img/banner%2011.06.58%20AM.png)
 Welcome to the election verifiers repo! Please visit our landing
 [website](https://albertli354.github.io/election-varifiers-info-capstone/) for more info.
 
