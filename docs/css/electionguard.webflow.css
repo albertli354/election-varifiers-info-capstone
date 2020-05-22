@@ -329,10 +329,18 @@
   margin-top: 172px;
   margin-bottom: 24px;
   font-family: 'Segoe ui', sans-serif;
+  color: #0064d4;
   font-size: 54px;
   line-height: 54px;
   font-weight: 400;
   text-align: center;
+}
+
+.pageheader.dividinghead {
+  margin-top: 90px;
+  margin-bottom: 64px;
+  font-size: 44px;
+  line-height: 48px;
 }
 
 .mainsubheader {
@@ -356,6 +364,7 @@
   display: -ms-flexbox;
   display: flex;
   max-width: 1200px;
+  margin-bottom: 120px;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -369,6 +378,7 @@
 .heading-4 {
   margin-bottom: 20px;
   font-family: Seguisb, sans-serif;
+  color: #0064d4;
   font-size: 50px;
   line-height: 54px;
 }
@@ -543,7 +553,74 @@
 }
 
 .link {
+  color: #0078d4;
   text-decoration: none;
+}
+
+.heading-6 {
+  margin-top: 16px;
+  margin-bottom: 0px;
+  font-family: Seguisb, sans-serif;
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.text-block-2 {
+  margin-top: 4px;
+  font-family: 'Segoe ui', sans-serif;
+  font-size: 32px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.text-block-2.email {
+  margin-top: 4px;
+  color: #0078d4;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.text-block-2.email.joshlink {
+  text-align: left;
+}
+
+.div-block-4 {
+  display: block;
+  text-align: center;
+}
+
+.heading-7 {
+  text-align: center;
+}
+
+.image-3 {
+  width: 320px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.heading-8 {
+  display: block;
+  font-family: Seguisb, sans-serif;
+  font-size: 40px;
+}
+
+.image-4 {
+  padding-top: 20px;
+  padding-bottom: 0px;
+  padding-left: 36px;
+}
+
+.link-2 {
+  text-decoration: underline;
+}
+
+.link-3 {
+  font-style: normal;
+  text-decoration: underline;
 }
 
 @font-face {
