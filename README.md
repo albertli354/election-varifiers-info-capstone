@@ -146,15 +146,15 @@ This part of the verifier goes over the decryption of tallies.
 
 - [ ] GB 7 Missing Trustee
 
-
+![gb7](img/gb7.png)
 - Not included in our verifier (more explained in the introduction).
 
 - [ ] GB 8 Missing Trustee II (Lagrange)
-
+![gb8](img/gb8.png)
 - Not included in our verifier (more explained in the introduction).
 
 - [x] GB 9 Tallies Verification
-
+![gb9](img/gb9.png)
 This part of the verifier will take the tallies (which is the count of all of the votes for a specific
 selection/candidate) and confirms a correct count. Verification occurs by taking the encrypted
 tally, decrypting it, and matching the decrypted score compared to the exponentiated number of
@@ -167,7 +167,7 @@ more detailed explanation.
 - The variable “t” here corresponds to the actual numerical count of votes (tallies).
 
 - [x] GB 10 Spoiled Ballots Verification
-
+![gb10](img/gb10.png)
 
 One aspect of the ElectionGuard system is the use of spoiled ballots. Spoiled ballots are ballots
 that have been spoiled by voters, thus do not count toward the actual election. After the
