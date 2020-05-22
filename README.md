@@ -2,7 +2,7 @@
 Welcome to the election verifiers repo! Please visit our landing
 [website](https://albertli354.github.io/election-varifiers-info-capstone/) for more info.
 
-## Table of contents:
+## Table of Contents:
 - [Who We Are](#who-we-are)
 - [What's Included In the Repo](#whats-included-in-the-repo)
 - [Who We Are](#who-we-are)
