@@ -2,6 +2,14 @@
 Welcome to the election verifiers repo! Please visit our landing
 [website](https://albertli354.github.io/election-varifiers-info-capstone/) for more info.
 
+## Table of contents:
+- [Who We Are](#who-we-are)
+- [What's Included In the Repo](#whats-included-in-the-repo)
+- [Who We Are](#who-we-are)
+- [How to Build and Deploy](#how-to-build-and-deploy)
+- [About the Verifier](#about-the-verifier)
+- [Acknowledgement](#acknowledgment)
+- [Contact Information](#contact-information)
 ## Who We Are:
 We are a group of four students from the University of Washington’s iSchool. This
 repository is an accumulation of the work we have done for our project on the ElectionGuard
@@ -45,14 +53,6 @@ Wisconsin. ElectionGuard has processed this data.
 We developed the verifier in Python using a Jupyter Notebook. You can clone the repository
 and run it on your local machine. We feel it is best to improve the verifier in a Jupyter Notebook
 further.
-
-
-## Acknowledgment
-We want to thank Dr. Josh Benaloh, our sponsor at Microsoft Research, for explaining the
-mathematical concepts of the verifier in great detail. We also want to thank Frank Martinez and
-Emily Porter, our instructor and teaching assistant in our capstone course, for providing
-constructive feedback and guidance.
-
 
 ## About The Verifier:
 A working verifier checks all the computations and decryptions listed in the “green boxes” in
@@ -180,6 +180,12 @@ confirms such individual decryption.
 - For the most part, this section reuses the checks from the green box 6 “Verifiable
     Decryption.” Since spoiled ballots are individually decrypted, however, the aggregation
     of encryptions (alphas and beta) will not be implemented.
+
+## Acknowledgment
+We want to thank Dr. Josh Benaloh, our sponsor at Microsoft Research, for explaining the
+mathematical concepts of the verifier in great detail. We also want to thank Frank Martinez and
+Emily Porter, our instructor and teaching assistant in our capstone course, for providing
+constructive feedback and guidance.
 
 ## Contact Information
 
