@@ -74,6 +74,7 @@ information:
 
 - [x] GB 1 Parameters
 
+
 This part of the verifier confirms the validity of the parameters in data. The parameters are the
 number of trustees, the threshold of trustees, and if the generator was computed correctly
 according to spec.
