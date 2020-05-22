@@ -70,7 +70,7 @@ information:
     correctly implemented as of the time working on this project as a potential answer for
     why.
 
-[x] GB 1 Parameters
+- [x] GB 1 Parameters
 
 This part of the verifier confirms the validity of the parameters in data. The parameters are the
 number of trustees, the threshold of trustees, and if the generator was computed correctly
@@ -78,7 +78,7 @@ according to spec.
 
 - This part corresponds to the [parameters] section of the pilot data.
 
-[x] GB 2 Correct Key Generation
+- [x] GB 2 Correct Key Generation
 
 This part of the verifier sets up the proof of knowledge of trustees involved. In this voting
 process, election trustees then apply their keys to decrypt the tallies and provide evidence that
@@ -89,7 +89,7 @@ missing trustee. The goal is not to compromise the public key at any point.
 
 - This part corresponds to the [trustee_public_keys] section of the pilot data.
 
-[x] GB 3 Selection Correctness
+- [x] GB 3 Selection Correctness
 
 
 This part of the verifier confirms each possible selection (candidate) on a ballot.
@@ -105,7 +105,7 @@ This part of the verifier confirms each possible selection (candidate) on a ball
     worth noting that in our pilot data, K and alpha are swapped, which resulted in the
     swapping in our verifier as well.
 
-[x] GB 4 Selection Limit Proof
+- [x] GB 4 Selection Limit Proof
 
 Box 4 checks the selection limit. For example, with selection limit 1, you are not allowed to vote
 for more than one candidate. Mainly, the section is composed of the integrity of votes castable
@@ -125,11 +125,11 @@ and the circumstances surrounding the integrity of the vote.
     selection limit).
 - The pilot data swapped K & A; therefore, they also are exchanged in our verifier.
 
-[ ] GB 5 Hashing
+- [ ] GB 5 Hashing
 
 - Not included in our verifier (more explained in the introduction).
 
-[x] GB 6 Verifiable Decryption
+- [x] GB 6 Verifiable Decryption
 
 This part of the verifier goes over the decryption of tallies.
 
@@ -142,16 +142,16 @@ This part of the verifier goes over the decryption of tallies.
     share of the decryption. Combining these keys decrypts the tally.
 - The Chaum-Pedersen Proof proves that the tallies are correct.
 
-[ ] GB 7 Missing Trustee
+- [ ] GB 7 Missing Trustee
 
 
 - Not included in our verifier (more explained in the introduction).
 
-[ ] GB 8 Missing Trustee II (Lagrange)
+- [ ] GB 8 Missing Trustee II (Lagrange)
 
 - Not included in our verifier (more explained in the introduction).
 
-[x] GB 9 Tallies Verification
+- [x] GB 9 Tallies Verification
 
 This part of the verifier will take the tallies (which is the count of all of the votes for a specific
 selection/candidate) and confirms a correct count. Verification occurs by taking the encrypted
@@ -164,7 +164,7 @@ more detailed explanation.
     see if it matches the exponential style of an encrypted tally.
 - The variable “t” here corresponds to the actual numerical count of votes (tallies).
 
-[x] GB 10 Spoiled Ballots Verification
+- [x] GB 10 Spoiled Ballots Verification
 
 
 One aspect of the ElectionGuard system is the use of spoiled ballots. Spoiled ballots are ballots
