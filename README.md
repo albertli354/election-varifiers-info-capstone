@@ -14,7 +14,9 @@ election. End-to-end verification means that voters using this system would be a
 discreetly, and then be able to check whether their votes were correctly counted afterward,
 without revealing their votes. Currently, American elections do not have any sort of system built
 in to ensure the integrity of votes, so ElectionGuard is attempting to tackle that issue.
-What we have created in this repo is a verifier. The verifier checks election data is
+What we have created in this repo is a verifier. 
+
+The verifier checks election data is
 correctly counted. ElectionGuard produces all of this data using an El-Gamal encryption style,
 and Dr. Benaloh’s mathematical proofs to translate the specifications into usable code. The
 verifier we have built is an early-stage project, so there have been many roadblocks along the
