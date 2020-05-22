@@ -73,8 +73,7 @@ information:
     why.
 
 - [x] GB 1 Parameters
-
-
+![gb1](img/gb1.png)
 This part of the verifier confirms the validity of the parameters in data. The parameters are the
 number of trustees, the threshold of trustees, and if the generator was computed correctly
 according to spec.
@@ -82,7 +81,7 @@ according to spec.
 - This part corresponds to the [parameters] section of the pilot data.
 
 - [x] GB 2 Correct Key Generation
-
+![gb2](img/gb2.png)
 This part of the verifier sets up the proof of knowledge of trustees involved. In this voting
 process, election trustees then apply their keys to decrypt the tallies and provide evidence that
 the polls are correct. In addition to confirming hash computations, the equation shown above
@@ -93,7 +92,7 @@ missing trustee. The goal is not to compromise the public key at any point.
 - This part corresponds to the [trustee_public_keys] section of the pilot data.
 
 - [x] GB 3 Selection Correctness
-
+![gb3](img/gb3.png)
 
 This part of the verifier confirms each possible selection (candidate) on a ballot.
 
@@ -109,7 +108,7 @@ This part of the verifier confirms each possible selection (candidate) on a ball
     swapping in our verifier as well.
 
 - [x] GB 4 Selection Limit Proof
-
+![gb4](img/gb4.png)
 Box 4 checks the selection limit. For example, with selection limit 1, you are not allowed to vote
 for more than one candidate. Mainly, the section is composed of the integrity of votes castable
 and the circumstances surrounding the integrity of the vote.
@@ -129,11 +128,11 @@ and the circumstances surrounding the integrity of the vote.
 - The pilot data swapped K & A; therefore, they also are exchanged in our verifier.
 
 - [ ] GB 5 Hashing
-
+![gb5](img/gb5.png)
 - Not included in our verifier (more explained in the introduction).
 
 - [x] GB 6 Verifiable Decryption
-
+![gb6](img/gb6.png)
 This part of the verifier goes over the decryption of tallies.
 
 - This section corresponds to the [contest_tallies] section as well as [cast_ballots] section
